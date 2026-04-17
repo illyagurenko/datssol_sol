@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+datssol:
+  api:
+    base-url: https://games-test.datsteam.dev
+    arena-endpoint: /static/datssol/openapi/api/arena
+    command-endpoint: /static/datssol/openapi/api/command
+    logs-endpoint: /static/datssol/openapi/api/logs
+
+logging:
+  level:
+    com.datssol.bot: DEBUG
+    org.springframework.web: INFO
